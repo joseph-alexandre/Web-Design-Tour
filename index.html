@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>WebDesign tour</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand text-white" href="index.html">WebDesign Tour</a>
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado"></div>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="index.html">Inicio <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="sobre.html">Sobre</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="assets/images/castilloPittamiglio.png" alt="Uma foto do Montevidéu">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-size: 18px;">Montevidéu</h5>
+            <p>Praça Indenpendência</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/parqueAraucano.png" alt="Uma foto do Santiago">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-size: 18px;">Santiago</h5>
+            <p>Parque Araucano</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/teatroMunicipal.png" alt="Uma foto do Rio de Janeiro">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-size: 18px;">Rio de Janeiro</h5>
+            <p>Teatro Municipal</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <br><br>
+    <h2 class="text-center">Destinos</h2><br>
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="assets/images/castilloPittamiglio.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Montevidéu</h5>
+          <p class="card-text">12 Vezes sem juros de 713,33$</p>
+          <button class="btn btn-primary btn-lg btn-block" onclick="redirecionar('Montevideu.html')">Ver
+            Mais</button>
+        </div>
+      </div>
+      <div class=" card">
+            <img class="card-img-top" src="assets/images/PlazadeArmas.png" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Santiago</h5>
+              <p class="card-text">12 Vezes sem juros de 333,33$</p>
+              <button class="btn btn-primary btn-lg btn-block" onclick="redirecionar('Santiago.html')">Ver
+                Mais</button>
+            </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/images/cristoredentor.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Rio de Janeiro</h5>
+            <p class="card-text">12 Vezes sem juros de 123,99$</p>
+            <button class="btn btn-primary btn-lg btn-block" onclick="redirecionar('RioDeJaneiro.html')">Ver
+              Mais</button>
+          </div>
+        </div>
+      </div>
+
+  </main>
+  <footer class="footer mt-auto py-3 bg-primary">
+    <div class="container">
+      <span class="text-white">©Copyright 2019 - Web Design Tour - Alguns direitos reservados</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/funcoes.js"></script>
+</body>
+
+</html>

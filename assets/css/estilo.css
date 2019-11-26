@@ -5,12 +5,10 @@ body {
 header{
 	padding: 2px;
 	background-color:#0073e6;
-	color:black;
 	font-size: 20px;
 }
 nav{
 	padding: 2px;
-  color:black;
 }
 footer{
   margin-top: 2%;
@@ -18,18 +16,13 @@ footer{
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
-  color:black;
 	background-color:#0073e6;
 }
 
 nav a{
 	padding: 5px;
 }
-nav a:hover{
-	background-color: #4ddbff;
-  color:black;
-  border-radius: 4px;
-}
+
 h2{
   width: 25%;
   margin-left: auto;
